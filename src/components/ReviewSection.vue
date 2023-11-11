@@ -53,7 +53,7 @@ export default {
         },
         {
           reviewText: "Noorjahan Sultana Session-2014-15 FCPS part-1 in Medicine(Cardiology) Review- Instructor conveys his specialized knowledge in the most understandable way with very well-organized PDF with keynotes. As well as this course will be highly recommended if anyone wants to be prepared himself/herself with individualized grooming for FCPS.",
-          authorName: 'Jane Smith',
+          authorName: 'Mayesha fairuz Buiccha',
           college: "Monno Medical college and hospital",
           highlightedQuote: "Highly recommended for FCPS!",
           imageUrl: "https://www.pngfind.com/pngs/m/488-4887957_facebook-teerasej-profile-ball-circle-circular-profile-picture.png"
