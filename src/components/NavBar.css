@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Montserrat&display=swap');
+
+.app-bar {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+#menu-icon{
+    display: hidden !important;
+}
+
+#title{
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(17, 17, 90);
+}
+
+
+#nav_btn_1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+
+#login, #signup{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#signup {
+    border: 2px solid currentColor !important;
+}
+
+
+.app-bar{
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+}
