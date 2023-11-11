@@ -17,7 +17,7 @@
         <div id="title" class="pr-4"> Ashraf's Lectures </div>
         <div class="pl-2 pt-1">
             <v-col>
-                <v-btn id="nav_btn_1" v-for="(item, index) in navItems" :key="index" text>
+                <v-btn id="nav_btn_1" v-for="(item, index) in navItems" :key="index" :href="item.path" text>
                 {{ item.text }}
                 </v-btn>
             </v-col>
@@ -42,9 +42,9 @@
           { text: 'Courses', icon: 'mdi-briefcase' },
         ],
         navItems: [
-          { text: 'Home' },
-          { text: 'About Us' },
-          { text: 'Courses' },
+          { text: 'Home', path: '/' },
+          { text: 'About Us', path: '/' },
+          { text: 'Courses', path: '/' },
         ],
       };
     },
