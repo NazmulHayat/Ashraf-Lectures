@@ -24,8 +24,12 @@
         </div>
         <v-spacer></v-spacer>
         <div class="reg pt-1">
+          <router-link to="/login" style="text-decoration: none; color: inherit;">
             <v-btn id="login"> LOGIN </v-btn>
-            <v-btn variant="outlined" id="signup"> SIGN UP </v-btn>
+          </router-link>
+          <router-link to="/registration" style="text-decoration: none; color: inherit;">
+            <v-btn variant="outlined" id="signup" :to="registration"> SIGN UP </v-btn>
+          </router-link>
         </div>
     </v-app-bar>
 
