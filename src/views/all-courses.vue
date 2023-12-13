@@ -13,7 +13,7 @@ import Skilldev from './skilldev.vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'All Courses',
+    name: 'all-courses',
     components: {
         Undergraduate,
         Postgraduate,
