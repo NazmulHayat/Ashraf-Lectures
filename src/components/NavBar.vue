@@ -48,7 +48,7 @@
         navItems: [
           { text: 'Home', path: '/' },
           { text: 'About Us', path: '/' },
-          { text: 'Courses', path: '/' },
+          { text: 'Courses', path: '/all-courses' },
         ],
       };
     },

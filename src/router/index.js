@@ -8,8 +8,8 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/details',
-    name: 'details',
+    path: '/course-details',
+    name: 'course-details',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -48,6 +48,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: () => import('../views/login.vue')
+  },
+  {
+    path: '/all-courses',
+    name: 'all-courses',
+    component: () => import('../views/all-courses.vue')
   }
 ]
 

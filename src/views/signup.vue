@@ -1,7 +1,6 @@
 <!-- src/components/RegistrationForm.vue -->
 
 <template>
-  <NavBar />
   <v-container class="reg_big_box">
     <v-card class="reg" elevation="24">
       <div class="reg_tit"> REGISTER NOW! </div>
@@ -70,16 +69,11 @@
       </div>
     </v-card>
   </v-container>
-  <ftt />
 </template>
 
 <script>
-import NavBar from '../components/NavBar.vue';
-import ftt from '../components/Footer-main.vue';
 export default {
   components: {
-    NavBar,
-    ftt
   },
   data() {
     return {

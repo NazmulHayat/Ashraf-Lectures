@@ -1,6 +1,5 @@
 <template>
     <div>
-      <NavBar />
       <v-container>
         <v-row>
           <v-col cols="12" class="text-center category-header-container">
@@ -21,24 +20,18 @@
           </v-col>
         </v-row>
       </v-container>
-      <ftt />
     </div>
   </template>
   
   <script>
   import { defineComponent } from 'vue';
-  import ftt from '../components/Footer-main.vue';
-  
+  import router from '@/router';
+
   // Components
-  import NavBar from '../components/NavBar.vue';
   
   export default defineComponent({
     name: 'HomeView',
-  
-    components: {
-      NavBar,
-      ftt,
-    },
+
     data() {
       return {
         courses: this.generateRandomCourses(),
@@ -94,6 +87,8 @@
       },
       redirectToCourse(courseId) {
         // Add logic to redirect to the detailed course page
+        router.push({ name: 'course-details'});
+
         console.log(`Redirecting to course ${courseId}`);
       },
       truncateDescription(description) {
