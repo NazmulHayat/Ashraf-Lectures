@@ -8,6 +8,11 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/all-courses',
+    name: 'all-courses',
+    component: () => import('../views/all-courses.vue')
+  },  
+  {
     path: '/course-details',
     name: 'course-details',
     // route level code-splitting
@@ -49,11 +54,6 @@ const routes = [
     name: 'login',
     component: () => import('../views/login.vue')
   },
-  {
-    path: '/all-courses',
-    name: 'all-courses',
-    component: () => import('../views/all-courses.vue')
-  }
 ]
 
 const router = createRouter({
