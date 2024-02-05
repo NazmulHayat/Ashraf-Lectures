@@ -83,7 +83,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;500;600;700&family=Kantumruy+Pro:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 #hash {
-  padding-top: 100px;
+  padding-top: 90px;
   text-align: center;
 }
 

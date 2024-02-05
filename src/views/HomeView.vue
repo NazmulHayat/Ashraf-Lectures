@@ -1,6 +1,7 @@
 <template>
   <Main_start />
   <Our_Courses />
+  <Youtube_link />
   <ReviewSection />
 </template>
 
@@ -11,6 +12,7 @@ import { defineComponent } from 'vue';
 import Main_start from '@/components/Main_start.vue';
 import Our_Courses from '../components/Our_Courses.vue';
 import ReviewSection from '../components/ReviewSection.vue';
+import Youtube_link from '../components/Youtube_link.vue'
 
 export default defineComponent({
   name: 'HomeView',
@@ -19,6 +21,7 @@ export default defineComponent({
     Main_start,
     Our_Courses,
     ReviewSection,
+    Youtube_link
   },
 });
 </script>
