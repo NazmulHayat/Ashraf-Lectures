@@ -74,6 +74,8 @@
     display: flex;
     height: 100%;
     align-items: center;
+    padding-bottom: 180px;
+    padding-top: 80px;
     justify-content: center;
 }
 .login{

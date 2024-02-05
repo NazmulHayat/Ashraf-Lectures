@@ -52,11 +52,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 70px 30px 0px 30px;
+    margin: 70px 100px 0px 100px;
   }
   
   .content {
-    text-align: center;
+    text-align: left;
   }
   
   .title {
@@ -65,6 +65,7 @@
     font-size: 2.5rem; /* Adjust the font size as needed */
     font-weight: 700; /* Bold */
     margin-bottom: 20px;
+    margin-right:100px;
   }
   
   .channel-btn {
@@ -109,6 +110,12 @@
     }
     .channel-btn{
         font-size: 0.75rem;;
+    }
+  }
+  @media screen and (max-width: 1431px) {
+    .title{
+        margin-right:80px;
+        font-size: 1.8rem;
     }
   }
 

@@ -108,6 +108,8 @@ export default {
     height: 100%;
     align-items: center;
     justify-content: center;
+    padding-bottom: 160px;
+    padding-top: 100px;
   }
   .reg{
     height: auto;
