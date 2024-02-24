@@ -121,7 +121,11 @@
 
   @media screen and (max-width: 1000px) {
     .channel-section {
-      flex-direction: column;;
+      flex-direction: column;
+    }
+    .title{
+        text-align: center;
+        margin-right: 0px;
     }
     .video-preview{
         padding-bottom: 50%;
