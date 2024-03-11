@@ -18,7 +18,7 @@ export default defineComponent({
   components: {
     Undergraduate,
     Postgraduate,
-    Skilldev
+    Skilldev,
   },
 });
 

@@ -71,16 +71,25 @@
           </v-card>
         </v-col>
       </v-row>
+      <div class="mt-4 pt-4"></div>
+      <showteachers :facultyType="'all'" />
     </v-container>
   </template>
   
   <script>
+
+  import showteachers from '../components/show-teachers.vue';
+
+
   export default {
     name: 'AboutUs',
+    components: {
+      showteachers
+    }
   }
   </script>
   
   <style scoped>
   /* Add any custom styles here */
   </style>
-  
+l;  

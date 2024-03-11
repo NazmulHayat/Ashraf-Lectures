@@ -19,6 +19,7 @@
             </v-hover>
           </v-col>
         </v-row>
+        <showteachers :facultyType="'skilldev'" />
       </v-container>
     </div>
   </template>
@@ -26,11 +27,15 @@
   <script>
   import { defineComponent } from 'vue';
   import router from '@/router';
+  import showteachers from '../components/show-teachers.vue';
+
 
   
   export default defineComponent({
     name: 'HomeView',
-
+    components: {
+      showteachers
+    },
     data() {
       return {
         courses: this.generateRandomCourses(),

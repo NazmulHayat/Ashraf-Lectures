@@ -19,18 +19,24 @@
             </v-hover>
           </v-col>
         </v-row>
+        <showteachers :facultyType="'undergraduate'" />
       </v-container>
     </div>
   </template>
   
   <script>
   import { defineComponent } from 'vue';
+  import showteachers from '../components/show-teachers.vue';
   import router from '@/router';
   
   // Components
   
   export default defineComponent({
     name: 'HomeView',
+
+    components: {
+      showteachers
+    },
 
     data() {
       return {
