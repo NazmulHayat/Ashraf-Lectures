@@ -62,23 +62,23 @@
         return {
             undergraduateFaculty: [
                 { name: 'John Doe', imageUrl: 'https://randomuser.me/api/portraits/men/1.jpg' },
-                { name: 'Jane Smith', imageUrl: 'https://randomuser.me/api/portraits/women/2.jpg' },
+                { name: 'Jane Smith', imageUrl: 'https://randomuser.me/api/portraits/men/2.jpg' },
                 { name: 'Michael Brown', imageUrl: 'https://randomuser.me/api/portraits/men/7.jpg' },
-                { name: 'Emily Johnson', imageUrl: 'https://randomuser.me/api/portraits/women/8.jpg' },
+                { name: 'Emily Johnson', imageUrl: 'https://randomuser.me/api/portraits/men/8.jpg' },
                 // Add more undergraduate faculty here
             ],
             postgraduateFaculty: [
                 { name: 'David Johnson', imageUrl: 'https://randomuser.me/api/portraits/men/3.jpg' },
-                { name: 'Emily Brown', imageUrl: 'https://randomuser.me/api/portraits/women/4.jpg' },
+                { name: 'Emily Brown', imageUrl: 'https://randomuser.me/api/portraits/men/4.jpg' },
                 { name: 'James Wilson', imageUrl: 'https://randomuser.me/api/portraits/men/9.jpg' },
-                { name: 'Sophia Miller', imageUrl: 'https://randomuser.me/api/portraits/women/10.jpg' },
+                { name: 'Sophia Miller', imageUrl: 'https://randomuser.me/api/portraits/men/10.jpg' },
                 // Add more postgraduate faculty here
             ],
             skillDevFaculty: [
                 { name: 'Michael Williams', imageUrl: 'https://randomuser.me/api/portraits/men/5.jpg' },
-                { name: 'Sarah Davis', imageUrl: 'https://randomuser.me/api/portraits/women/6.jpg' },
+                { name: 'Sarah Davis', imageUrl: 'https://randomuser.me/api/portraits/men/6.jpg' },
                 { name: 'Robert Martinez', imageUrl: 'https://randomuser.me/api/portraits/men/11.jpg' },
-                { name: 'Jessica Anderson', imageUrl: 'https://randomuser.me/api/portraits/women/12.jpg' },
+                { name: 'Jessica Anderson', imageUrl: 'https://randomuser.me/api/portraits/men/12.jpg' },
                 // Add more skill development faculty here
             ],
             // Combine all faculty for the 'all' type
